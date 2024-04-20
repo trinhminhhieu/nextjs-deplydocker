@@ -1,0 +1,18 @@
+services:
+  nextjsexample:
+    image: thanhtrung7/nextjsexample:latest
+    build: .
+    restart: always
+    networks:
+      - computerberry
+    env_file:
+      - .env.production.local
+    # Run a command against the development stage of the image
+    ports:
+      - 3232:3232
+    # environment:
+    #   - NODE_ENV=production
+
+networks:
+  computerberry:
+    external: true
