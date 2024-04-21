@@ -1,7 +1,7 @@
 version: "3"
 services:
   nextjsexample:
-    image: thanhtrung7/nextjsexample:latest
+    image: thanhtrung7/nextjsexample
     build: .
     restart: always
     networks:
