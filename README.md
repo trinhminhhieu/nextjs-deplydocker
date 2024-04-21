@@ -2,7 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 ```bash
-# docker run -p 3000:3000 nextjs-docker
+# Build your container: docker build -t nextjs-docker .
+# Run your container: docker run -p 3000:3000 nextjs-docker
 ```
 First, run the development server:
 
